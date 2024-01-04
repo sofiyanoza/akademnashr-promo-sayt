@@ -1,0 +1,254 @@
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Roboto","Arial" ,sans-serif;
+    letter-spacing: 0.5px;
+}
+
+*:focus{
+    outline: 5px dotted #ff7500;
+    outline-offset: 3px;
+}
+/* SITE HEADER */
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 5px solid #ff7500;
+    background-color: #fff;
+}
+.logo-link{
+    transition:opacity 0.4s ease ;
+}
+.logo-link:hover{
+    opacity: 0.8;
+}
+
+.logo-link:active{
+    opacity: 0.6;
+}
+
+.site-header-actions{
+    display: flex;
+    align-items: center;
+}
+
+/* SITE NAV */
+.site-nav-list{
+    padding: 0%;
+    display: flex;
+    list-style: none;
+}
+
+
+.sitenav-link{
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    transition: color 0.4s ease,
+     opacity 0.4s ease ;
+}
+.sitenav-link:hover{
+    color: #ff7500;
+}
+
+..sitenav-link:active{
+    opacity: 0.6;
+}
+
+.main-link{
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 15px;
+    background-color: #ff7500;
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 0.4s ease;
+}
+
+.main-link:hover{
+    opacity: 0.8;
+}
+
+.main-link:active{
+    opacity: o.6;
+}
+/* HERO */
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color:#252420 ;
+    color: #fff;
+}
+
+.hero-content{
+    width: 390px;
+}
+
+.orange-line{
+    border:none;
+    width: 80px;
+    height: 3px;
+    background-color: #ff7500;
+}
+
+.hero-heading{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: "Roboto Condensed","Arial" ,sans-serif;
+   
+}
+
+
+
+.hero-img{
+    border-radius: 8px;
+    width: 510px;
+    height: 510px;
+}
+ /* FEATURES */
+
+ .features{
+    padding-top: 210px;
+    padding-bottom: 210px;
+ }
+.features-heading{
+    width: 440px;
+    font-size: 72px;
+    line-height: 1.2;
+    font-family: "Roboto Condensed","Arial" ,sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.feature-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.feature{
+    width: 340px;
+}
+
+.feature-icon-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+   background-color: rgba(225, 117, 0, 0.2);
+}
+
+.feature-title{
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: "Roboto Condensed","Arial" ,sans-serif; 
+}
+/* PROMO */
+
+.promo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #252420;
+    color: #fff;
+}
+
+.promo-content{
+    width: 440px;
+}
+
+.promo-heading{
+    font-size: 40px;
+    line-height: 48px;
+    font-family: "Roboto Condensed","Arial" ,sans-serif;
+}
+
+
+.promo-highlight{
+ color: #ff7500;
+}
+
+.promo-img{
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+/* SITE FOOTER */
+.site-footer{
+    padding-top: 56px;
+    padding-bottom: 56px;
+    background-color: #f8f8f8;
+}
+.site-footer-top{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+   
+}
+
+.site-footer ul{
+    list-style: none;
+    padding: 0;
+}
+.site-footer-socials{
+    display: flex;
+    padding: 0;
+}
+.site-footer-socials a{
+    color: #252420;
+    transition: color 0.4s ease,opacity 0.4s ease;
+}
+
+.site-footer-socials a:hover{
+    color: #ff7500;
+}
+
+.site-footer-socials a{
+    opacity: 0.6;
+}
+
+.site-footer-devider{
+    height: 2px;
+    background-color: rgba(37, 36, 32, 0.5);
+    border: 0;
+    
+}
+
+.site-footer-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-footer-links {
+  width: 224px; 
+  line-height: 19px;
+}
+
+.site-footer-links a{
+    font-size: 16px;
+  line-height: 19px;
+  color: #252420;
+  text-decoration: none;
+  transition: color 0.4s ease,opacity 0.4s ease;
+}
+
+.site-footer-links a:hover{
+    color: #ff7500;
+}
+.site-footer-links a:active{
+    opacity: 0.6;
+}
