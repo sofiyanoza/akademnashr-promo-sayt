@@ -35,11 +35,18 @@ body{
 
 /* SITE NAV */
 .site-nav-list{
+    margin: 0;
+    margin-right: 32px;
     padding: 0%;
     display: flex;
     list-style: none;
 }
-
+.sitenav-item{
+    margin-right: 32px;
+}
+.sitenav-item:last-child{
+    margin-right: 0;
+}
 
 .sitenav-link{
     font-size: 13px;
@@ -95,6 +102,8 @@ body{
 }
 
 .orange-line{
+    margin: 0;
+    margin-bottom: 40px;
     border:none;
     width: 80px;
     height: 3px;
@@ -102,10 +111,17 @@ body{
 }
 
 .hero-heading{
+    margin-top: 0;
+
+    margin-bottom: 24px;
     font-size: 40px;
     line-height: 1.2;
     font-family: "Roboto Condensed","Arial" ,sans-serif;
    
+}
+.hero-text{
+    margin-top: 0;
+    margin-bottom: 32px;
 }
 
 
@@ -125,19 +141,26 @@ body{
     width: 440px;
     font-size: 72px;
     line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 72px;
     font-family: "Roboto Condensed","Arial" ,sans-serif;
     letter-spacing: 0.5px;
 }
 
 .feature-list{
     display: flex;
-    justify-content: space-between;
+
+    margin: 0;
     list-style: none;
     padding: 0;
 }
 
 .feature{
     width: 340px;
+    margin-right: 40px;
+}
+.feature:last-child{
+    margin-right: 0;
 }
 
 .feature-icon-wrapper{
@@ -173,9 +196,20 @@ body{
 .promo-heading{
     font-size: 40px;
     line-height: 48px;
+    margin-top: 0;
+    margin-bottom: 24px;
     font-family: "Roboto Condensed","Arial" ,sans-serif;
 }
-
+.promo-info-wrapper:{
+    margin-bottom: 24;
+}
+.promo-text{
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+.promo-text:last-child{
+    margin-bottom: 0;
+}
 
 .promo-highlight{
  color: #ff7500;
@@ -207,6 +241,13 @@ body{
 .site-footer-socials{
     display: flex;
     padding: 0;
+    margin: 0;
+}
+.site-footer-socials li{
+    margin-right: 16;
+}
+.site-footer-socials li:last-child{
+margin-right: 0;
 }
 .site-footer-socials a{
     color: #252420;
@@ -225,6 +266,8 @@ body{
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
     border: 0;
+    margin-top: 40px;
+    margin-bottom: 60px;
     
 }
 
@@ -236,8 +279,13 @@ body{
 .site-footer-links {
   width: 224px; 
   line-height: 19px;
+  padding: 0;
+  margin: 0;
+  margin-right: 68;
 }
-
+.site-footer-links:last-child{
+    margin-right: 0;
+}
 .site-footer-links a{
     font-size: 16px;
   line-height: 19px;
