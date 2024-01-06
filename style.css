@@ -27,7 +27,9 @@ body{
 .logo-link:active{
     opacity: 0.6;
 }
-
+.logo-link img{
+    display: block;
+}
 .site-header-actions{
     display: flex;
     align-items: center;
@@ -260,6 +262,10 @@ margin-right: 0;
 
 .site-footer-socials a{
     opacity: 0.6;
+    display: block;
+}
+.site-footer svg{
+    display: block;
 }
 
 .site-footer-devider{
